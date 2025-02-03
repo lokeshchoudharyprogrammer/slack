@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChatHive
 
-## Getting Started
+🚀 **Real-time Communication & Collaboration Platform**
 
-First, run the development server:
+## Features
+
+- 📡 **Real-time messaging** using WebSockets
+- 👍 **Reactions** to messages for better interaction
+- 🧵 **Threaded conversations** & replies system
+- ✏️ **Edit messages** after sending
+- 🗑️ **Delete messages** when needed
+- 🔐 **Role-based access control** for user permissions
+- 🖼️ **Image attachments** support
+- 🔒 **Authentication** with NextAuth v5
+- 📺 **Create & manage channels**
+- 🏢 **Workspace creation** for better organization
+- ✉️ **Invite system** with unique invite codes
+- 💬 **Direct messaging** between users
+- 👥 **User profiles** for personalization
+
+## Tech Stack
+
+- ⚛️ **Framework:** Next.js 14
+- 🎨 **UI:** ShadCN UI & Tailwind CSS
+- 🚀 **Deployment:** Vercel
+
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/chathive.git
+cd chathive
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is optimized for **Vercel** deployment. Simply connect your repository and deploy with ease.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+We welcome contributions! Feel free to submit PRs, open issues, and suggest improvements.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License © 2025 ChatHive

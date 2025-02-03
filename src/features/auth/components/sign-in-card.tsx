@@ -19,7 +19,7 @@ function SignInCard({ setState }: SignInProps) {
   const [password, setPassword] = React.useState("")
   const [pending, setPending] = React.useState(false)
   const { signIn } = useAuthActions();
-const [error,SetError]=React.useState('');
+const [error,setError]=React.useState('');
 const OnPasswordSignIn=(e:React.FormEvent<HTMLFormElement>)=>{
 e.preventDefault();
 

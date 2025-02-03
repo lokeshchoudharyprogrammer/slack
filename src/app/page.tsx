@@ -1,17 +1,17 @@
 "use client";
 import { Button } from "@/components/ui/button"
+import AuthScreen from "@/features/auth/components/auth-screen";
 import { Loader2 } from "lucide-react"
+import { useAuthActions } from "@convex-dev/auth/react";
 
 export default function Home() {
+  const {signOut}=useAuthActions()
+
   return (
     <>
-      <div className="text-rose-500 text-2xl font-bold font-sans">
-        Hello World
-      </div>
-      <Button disabled>
-      <Loader2 className="animate-spin" />
-      Please wait
-    </Button>
+     <p className="text-2xl">Logged in !</p>
+     <Button onClick={()=>signOut()}>Sign Out</Button>
     </>
   );
 }
+ 
